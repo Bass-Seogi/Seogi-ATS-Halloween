@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_trailer_body_data : dh24.scs.box.body
+accessory_trailer_body_data : h24.scs.box.body
 {
 	name: "@@bs_dryvan@@ Halloween 2024"
 	price: 30000
