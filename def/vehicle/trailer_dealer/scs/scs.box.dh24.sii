@@ -1,0 +1,91 @@
+SiiNunit
+{
+trailer : .scs.box.dh24
+{
+	trailer_definition: trailer_def.scs.box.single_45f.dryvan
+
+	accessories[]: .data
+	accessories[]: .body
+	accessories[]: .chassis
+	accessories[]: .paint_job
+
+	accessories[]: .tire1
+	accessories[]: .disc1
+	accessories[]: .hub1
+	accessories[]: .nuts1
+
+	accessories[]: .tire2
+	accessories[]: .disc2
+	accessories[]: .hub2
+	accessories[]: .nuts2
+}
+
+vehicle_accessory: .data
+{
+	data_path: "/def/vehicle/trailer_owned/scs.box/data.sii"
+}
+
+vehicle_accessory: .body
+{
+	data_path: "/def/vehicle/trailer_owned/scs.box/body/dh24.sii"
+}
+
+vehicle_accessory: .chassis
+{
+	data_path: "/def/vehicle/trailer/scs_box_event/dry_45_event.sii"
+}
+
+vehicle_paint_job_accessory: .paint_job
+{
+	data_path: "/def/vehicle/trailer/scs_box_event/company_paint_job/halloween_2024.sii"
+}
+
+vehicle_wheel_accessory: .tire1
+{
+	offset: 2
+	data_path: "/def/vehicle/trailer_wheel/r_tire/385_55_r22_t.sii"
+}
+
+vehicle_wheel_accessory: .disc1
+{
+	offset: 2
+	data_path: "/def/vehicle/trailer_wheel/r_disc/disc_0_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory: .hub1
+{
+	offset: 2
+	data_path: "/def/vehicle/trailer_wheel/r_hub/hub_0_01.sii"
+}
+
+vehicle_wheel_accessory: .nuts1
+{
+	offset: 2
+	data_path: "/def/vehicle/trailer_wheel/r_nuts/nuts_steel_0_01.sii"
+}
+
+vehicle_wheel_accessory: .tire2
+{
+	offset: 0
+	data_path: "/def/vehicle/trailer_wheel/r_tire/385_55_r22_t.sii"
+}
+
+vehicle_wheel_accessory: .disc2
+{
+	offset: 0
+	data_path: "/def/vehicle/trailer_wheel/r_disc/disc_0_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory: .hub2
+{
+	offset: 0
+	data_path: "/def/vehicle/trailer_wheel/r_hub/hub_0_01.sii"
+}
+
+vehicle_wheel_accessory: .nuts2
+{
+	offset: 0
+	data_path: "/def/vehicle/trailer_wheel/r_nuts/nuts_steel_0_01.sii"
+}
+
+}
